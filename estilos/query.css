@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media screen and (max-width:760px){
+   header{
+    flex-direction: column;
+   } 
+   ul{
+    text-align: center;
+   }
+    main {
+        flex-direction: column;
+    }
+    main > aside > h2{
+         font-size: 35px;
+         line-height: 10px;
+    }
+
+
+    form{
+      margin: auto; 
+      width: 100%; 
+    }
+
+    input{
+     align-self: center;
+    }
+    img {
+      display: none;  
+    }
+
+}
+
